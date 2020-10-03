@@ -1,0 +1,11 @@
+.GameHistory {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.GameHistory__button {
+    margin: 5px 15px;
+    background-color: rgba(42, 150, 9, 0.158);
+}

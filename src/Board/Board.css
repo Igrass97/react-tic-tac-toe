@@ -1,0 +1,36 @@
+.Board {
+  display: table;
+  border-collapse: collapse;
+}
+
+.Board__row {
+  width: 100%;
+  display: table-row;
+}
+
+.Square {
+  border: 1px solid black;
+  display: table-cell;
+  width: 75px;
+  height: 75px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.Square__content {
+  opacity: 0;
+  transform: scale(0);
+  transition: all 0.2s;
+  line-height: 70px;
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  display: block;
+}
+
+.Square__content--has-content {
+  opacity: 1;
+  transform: scale(1);
+}
+
+
